@@ -246,11 +246,21 @@ a:hover {
   }
 }
 
+@keyframes floatUpDown {
+	0%, 100% {
+		 transform: translateY(0);
+	}
+	50% {
+		 transform: translateY(-12px);
+	}
+}
+
 .header__title-icon {
   position: absolute;
   bottom: 0;
   left: 50%;
   transform: translate(-50%, 0%);
+  animation: floatUpDown 2s ease-in-out infinite;
 }
 
 .header__footer {
