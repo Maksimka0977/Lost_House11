@@ -95,7 +95,8 @@ body {
   background-color: #242B33;
   color: #fff;
   font-size: 16px;
-		scroll-behavior: smooth;
+  scroll-behavior: smooth;
+  heigth:100%;
 }
 
 	.no-scroll{
